@@ -1,3 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;;
+ 
+}
+
+body{
+  font-family: montserrat;
+}
+
+nav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+
+label#logo{
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold; 
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  text-transform: uppercase;
+}
+
+
 
 #titulo{
   background: #9f9df2;
@@ -5,6 +51,7 @@
   text-align: center;
   text-shadow: 12px -5px 2px rgba(150, 150, 150, 1);
 }
+
 
 
 #quienes{
