@@ -4,7 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;;
- 
+
 }
 
 body{
@@ -22,7 +22,7 @@ label#logo{
   font-size: 35px;
   line-height: 80px;
   padding: 0 100px;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 nav ul{
@@ -107,34 +107,58 @@ nav ul li a{
   }
 }
 
-#titulo{
+#inicio{
+  margin: 30px auto;
+}
+
+.cimg{
   background: #9f9df2;
-  font-size: 30px;
   text-align: center;
-  text-shadow: 12px -5px 2px rgba(150, 150, 150, 1);
+  margin-top: 10px auto;
+  position: relative;
+  width: 95%
+  max-width: 600px;
+  position: relative;
+  align-items: center;
+  margin-top: 10px;
 }
 
-
-
-#quienes{
-  background: #999999;
-  float: right;
-  width: 750px;
-  height:620px;
-  margin: 10px;
-  padding: 14px;
-  font: arial 14px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px
+.txtheader{
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
+a{
+  color:#fff;
+}
 
-<header id="titulo">
-        <a href="index.html">
-        <img src="images/meraki brand.png">
-        </a>
-      </header>
+p{
+  font-family: Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 1.4px;
+  word-spacing: 0.6px;
+  color: #FFFFFF;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: oblique;
+  font-variant: normal;
+  text-transform: none;
+  text-shadow: -1px -1px #2c3e50;
+}
 
-  <article id="quienes">
-    sssss
-  </article>
+h1 {
+  font-family: Georgia, serif;
+  font-size: 30px;
+  letter-spacing: 1.4px;
+  word-spacing: 0.6px;
+  color: #FFFFFF;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: oblique;
+  font-variant: normal;
+  text-transform: none;
+  text-shadow: -1px -1px #2c3e50;
+}
