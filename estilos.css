@@ -114,13 +114,13 @@ nav ul li a{
 .cimg{
   background: #3e4df0;
   text-align: center;
-  margin-top: 10px auto;
+  margin-top: 0px auto;
   position: relative;
   width: 50%
   max-width: 600px;
   position: relative;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 0px;
   padding-bottom: 0px;
   padding-top: 5px;
 
@@ -129,17 +129,12 @@ nav ul li a{
 .cimg:before{
   content: "";
   width: 100%;
-  height: 610px;
+  height: 710px;
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(45deg, #3e4df0, #7a84f0);
+  background: linear-gradient(#fff, #fff);
   opacity: 0.5;
-}
-
-.cimg:hover {
-  filter: blur(5px);
-
 }
 
 .txtheader{
@@ -187,6 +182,7 @@ a.ltxtheader{
   color: #000000;
   font-weight: 700;
   text-transform: uppercase;
+
 }
 
 .elegtxt{
