@@ -172,24 +172,35 @@ a.ltxtheader{
 }
 
 .elegsec{
-  color: #001c4a;
   text-align: center;
-  margin: 50px;
-  font-family: Georgia, serif;
-  font-size: 25px;
-  letter-spacing: 1.8px;
-  word-spacing: 6px;
+  font-family: monserrat, bold;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 6px;
+  word-spacing: 8px;
   color: #000000;
   font-weight: 700;
-  text-transform: uppercase;
-
+  margin: 50px;
 }
 
 .elegtxt{
-  color: #001c4a;
-  text-align: center;
-  font-size: 20px;
-  margin: 50px;
-  margin-right: 400px;
-  margin-left: 400px;
+  right: 50%;
+  border: 3px solid;
+  padding: 20px;
+  width: 400px;
+}
+
+#demoparagraph {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-gap: 50px;
+-moz-column-gap: 50px;
+column-gap: 50px;
+-webkit-column-rule: 5px solid rgba(28,110,164,0.5);
+-moz-column-rule: 5px solid rgba(28,110,164,0.5);
+column-rule: 5px solid black;
+border: 5px solid black;
+padding: 30px;
+margin: 50px;
 }
