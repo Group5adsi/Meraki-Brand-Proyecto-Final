@@ -198,27 +198,3 @@ main{
   position: relative;
 
 }
-section#servicios{
-  width: 760px;
-  height: 500p;
-  background: slateblue;
-  padding: 20px;
-  position: absolute;
-  z-index: auto;
-  top: 50px;
-  left: 100px;
-  
-}
- section#nosotros, section#contact{
-  width: 760px;
-  height: 500p;
-  padding: 20px;
-  position: absolute;
-  z-index: auto;
-  top: 50px;
-  left: 100px;
-
- }
- section#nosotros, section#contact{
-   visibility: hidden;
- }
