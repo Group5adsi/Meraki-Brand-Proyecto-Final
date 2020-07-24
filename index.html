@@ -4,7 +4,16 @@
     <meta charset="utf-8">
     <title>Pagina principal</title>
     <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
   </head>
     <nav>
       <input type="checkbox" id="check">
@@ -23,6 +32,7 @@
     </nav>
 
     <header>
+      <div>
       <div class="cimg" >
         <img src="images/seri.jpg" width="100%" height="700">
       </div>
@@ -32,21 +42,20 @@
         <p>Somos una empresa dedicada a la serigrafía y al estampado profesional, realizamos distintos tipos de labores las cuales las podrás encontrar en el
         apartado de <a class="ltxtheader" href="...servicios...">Servicios</a></p>
       </div>
+     </div>
     <body>
       <section>
         <div><h1 class="elegsec">¿Por qué debe elegirnos?</h1></div>
         
         <p class="elegtxt">Somos una empresa lider, innovando día a día y cumpliendo las metas de nuestros clientes, nos esforzamos cada vez más para que nuestros productos puedan satisfacer a nuestros clientes y nuestros empleados.</p>
       </section>
-
-      <article class="infempr">
-   <div id="demoparagraph">
-  <p><strong>You can edit this section to test the interactive editor.</strong></p>
-  <p>Lorem ipsum dolor sit amet, nonumes voluptatum mel ea, cu case ceteros cum. Novum commodo malorum vix ut. Dolores consequuntur in ius, sale electram dissentiunt quo te. Cu duo omnes invidunt, eos eu mucius fabellas. Stet facilis ius te, quando voluptatibus eos in. Ad vix mundi alterum, integre urbanitas intellegam vix in.</p>
-  <p>Eum facete intellegat ei, ut mazim melius usu. Has elit simul primis ne, regione minimum id cum. Sea deleniti dissentiet ea. Illud mollis moderatius ut per, at qui ubique populo. Eum ad cibo legimus, vim ei quidam fastidii.</p>
-  <p>Quo debet vivendo ex. Qui ut admodum senserit partiendo. Id adipiscing disputando eam, sea id magna pertinax concludaturque. Ex ignota epicurei quo, his ex doctus delenit fabellas, erat timeam cotidieque sit in. Vel eu soleat voluptatibus, cum cu exerci mediocritatem. Malis legere at per, has brute putant animal et, in consul utamur usu.</p>
-  <p>Te has amet modo perfecto, te eum mucius conclusionemque, mel te erat deterruisset. Duo ceteros phaedrum id, ornatus postulant in sea. His at autem inani volutpat. Tollit possit in pri, platonem persecuti ad vix, vel nisl albucius gloriatur no.</p>
-</div>
-      </article>
+      <div class="slider1">
+        <div class="bxslider">
+      <div><img src="images/place1.jpg" width="100%" height="100%"></div>
+      <div><img src="images/place2.jpg" width="100%" height="100%"></div>
+      <div><img src="images/place3.jpg" width="100%" height="100%"></div>
+      </div>
+      </div>
+      <script src="slider.js"></script>
   </body>
 </html>
