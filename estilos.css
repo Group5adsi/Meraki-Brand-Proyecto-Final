@@ -183,7 +183,7 @@ a.ltxtheader{
 
  .footer-container{
   width: 100%;
-  background: #0082e6;
+  background: black;
   color: #fff;
  }
 
@@ -208,7 +208,7 @@ a.ltxtheader{
 
 .footer-principal .footer-columna h3{
   font-size: 32px;
-  color: #d4d7ff;
+  color: #404040;
   margin-bottom: 20px;
 }
 
@@ -290,6 +290,17 @@ a.ltxtheader{
   }
   #check:chekbtn ~ ul{
     left: 0;
+  }
+
+  .elegtxt{
+    width: 100%;
+    font-size: 15px;
+    padding: 2;
+    margin-left: 0;
+  }
+
+  .elegsec{
+    font-size: 20px;
   }
 
 }
