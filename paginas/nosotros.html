@@ -1,11 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta charset="utf-8">
     <title>Pagina principal</title>
+    <link rel="stylesheet" type="text/css" href="../estilos.css">
     <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+   
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider();
+    });
+  </script>
     
   </head>
   
@@ -16,9 +26,9 @@
       </label>
       <label id="logo">MRK</label>
         <ul>
-          <li><a href="" class="">Inicio</a></li>
+          <li><a href="../index.html">Inicio</a></li>
           <li><a href="">Servicios</a></li>
-          <li><a href="paginas/nosotros/nosotros.html">Nosotros</a></li>
+          <li><a href="" class="active">Nosotros</a></li>
           <li><a href="">Contacto</a></li>
           <li><a href="">Login</a></li>
 
@@ -64,24 +74,23 @@
 </main>
 
 <footer>
-  <div class="contenedor-footer">
-    <div class="content-foo">
-      <h4>Celular</h4>
-      <p>316-4676197</p>
-    </div>
 
-    <div class="content-foo">
-      <h4>Correo</h4>
-      <p>meraki-brand@gmail.com</p>
-    </div>
-
-    <div class="content-foo">
-      <h4>Dirección</h4>
-      <p>Carrera 11a #10-37 Barrio. Cali Colombia</p>
-    </div>
-  </div>
-  <h2 class="titul-final">&copy; MERAKI-BRAND</h2>
 </footer>
-
+    <div class="footer-container">
+    <div class="footer-principal">
+      <div class="footer-columna">
+        <h3>Contáctenos</h3>
+        <span class="fa fa-map-marker"><p> Carrera 11a #10 - 37 Barrio Industrial. Cali, Colombia. </p></span><br>
+        <span class="fa fa-phone"><p>(+57 316-467-61-97)</p></span><br>
+        <span class="fa fa-envelope"><p>meraki-brand@gmail.com</p></span><br>
+      </div>
+      <div class="footer-columna">
+        <h3>Meraki Brand</h3>
+        <p>Marca Registrada, cualquier imagen mostrada es unicamente como representacion grafica.</p>
+        <br>
+        <p>&copy; 2020 Todos los Derechos Reservados - Meraki Brand</p>
+      </div>
+    </div>
+    </div>
   </body>
 </html>

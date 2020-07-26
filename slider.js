@@ -7,4 +7,5 @@ $('.bxslider').bxSlider({
   mode: 'fade',
   speed: 1000,
   slideMargin: 250,
+  pager: false,
 });
