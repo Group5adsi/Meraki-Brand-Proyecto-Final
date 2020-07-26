@@ -137,6 +137,15 @@ position:;
 }
 
 header .texto-header{
+  font-family: Georgia, serif;
+  font-size: 20px;
+  letter-spacing: 1.4px;
+  word-spacing: 0.6px;
+  color: #fff;
+  font-weight: 400;
+  font-style: oblique;
+  font-variant: normal;
+  text-shadow: -2px -2px #000000;
   display:flex;
   height: 100px;
   width: 100%;
