@@ -1,228 +1,118 @@
-*{
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-  box-sizing: border-box;;
-
-}
-
+/* inicio de estilos-barra nav */
 body{
-  font-family: montserrat;
+  font-family: 'Roboto', sans-serif;
+  background: #f0f8ea;
 }
-
-nav{
-  background: #0082e6;
-  height: 80px;
-  width: 100%;
-}
-
-label#logo{
-  color: white;
-  font-size: 35px;
-  line-height: 80px;
-  padding: 0 100px;
-  font-weight: bold;
-}
-
-nav ul{
-  float: right;
-  margin-right: 20px;
-}
-
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-nav ul li a{
-  color: white;
-  font-size: 17px;
-  padding: 7px 13px;
-  border-radius: 3px;
-  text-transform: uppercase;
-}
-
-a.active,a:hover{
-  background: #1b9bff;
-  transition: .1s;
-  color: #4A4847;
-}
-
-.chekbtn{
-  font-size: 30px;
-  color: white;
-  float:right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor:pointer;
-  display: none;
-}
-
-#check{
-  display: none;
-}
-
-nav ul li a{
-  font-size: 16px;
-}
-
-
-#inicio{
-  margin: 30px auto;
-}
-
-.cimg{
-  background: #3e4df0;
-  text-align: center;
-  margin-top: 0px auto;
-  position: relative;
-  width: 50%
-  max-width: 600px;
-  position: relative;
-  align-items: center;
-  margin-top: 0px;
-  padding-bottom: 0px;
-  padding-top: 5px;
-
-}
-
-.cimg:before{
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(#fff, #fff);
-  opacity: 0.5;
-}
-
-.txtheader {
-  font-family: Georgia, serif;
-  font-size: 18px;
-  letter-spacing: 1.4px;
-  word-spacing: 0.6px;
-  color: #fff;
-  font-weight: 400;
-  font-style: oblique;
-  font-variant: normal;
-  text-shadow: -2px -2px #000000;
-  position: absolute;
-  top: 50vh;
-  left: 50vw;
-  transform: translate(-55%, 70%);
-}
-
-.ltxtheader:hover{
-  background: #92b3e8;
-  color: black;
-
-}
-
-a.ltxtheader{
-  color: white;
-  background:#324057;
-  padding:2px;
-  margin: 1px;
-  border-radius: 5px;
-
-}
-
-.elegsec{
-  text-align: center;
-  font-family: monserrat, bold;
-  text-transform: uppercase;
-  font-size: 40px;
-  letter-spacing: 6px;
-  word-spacing: 8px;
-  color: #000000;
-  font-weight: 700;
-  margin: 50px;
-}
-
-.elegtxt{
-  text-align: center;
-  font-family: monserrat;
-  text-transform: uppercase;
-  font-size: 15px;
-  letter-spacing: 4px;
-  word-spacing: 6px;
-  color: #000000;
-  font-weight: 700;
-  margin: 100px;
-  padding: 50px;
-  border-left: 4px groove #5E56A4;
-  border-top: 1px groove #1D102A;
-  border-right: 1px groove #1D102A;
-  border-bottom: 1px groove #1D102A;
-  border-radius: 24px 0px 0px 0px;
-}
-
-.elegtxt:hover{
-  border-left: 11px groove #5E56A4;
-  border-top: 1px groove #1D102A;
-  border-right: 1px groove #1D102A;
-  border-bottom: 1px groove #1D102A;
-  background: #e3e3e3;
-
-}
-
-.elegtxt{
-  color: #001c4a;
-  text-align: center;
-  font-size: 20px;
-  margin: 50px;
-  margin-right: 400px;
-  margin-left: 400px;
-}
-
-main{
-  position: relative;
-
-}
-section#servicios{
-  width: 760px;
-  height: 500p;
-  background: slateblue;
-  padding: 20px;
-  position: absolute;
-  z-index: auto;
-  top: 50px;
-  left: 100px;
-  
-}
- section#nosotros, section#contact{
-  width: 760px;
-  height: 500p;
-  padding: 20px;
-  position: absolute;
-  z-index: auto;
-  top: 50px;
-  left: 100px;
-
- }
- section#nosotros, section#contact{
-   visibility: hidden;
- }
-=======
-
-.slider1 {
-  max-width: 100%;
-  display: block;
+.container{
+  width: 95%;
+  max-width: 1000px;
   margin: 0 auto;
- }
+}
+header{
+  background:#7596B2;
+  color: white;
+  padding: 1 em 0;
+  position: relative;
+}
+header::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.logo{
+  float: left;
+  font-size: 1 rem;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
-  footer{
+.logo span{
+  font-weight: 300;
+}
+.site-nav{
+  top: 100%;
+  right: 0;
+  position: absolute;
+  background: #464655;
+  height: 0;
+  overflow:  ;
+}
+.site-nav-open{
+  height: auto;
+}
+.site-nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav li{
+  border-bottom: 1px solid #575766;
+}
+
+.site-nav li{
+  border-bottom: none;
+}
+
+.site-nav a{
+  background: #7596B2;
+  color: #ebedb3;
+  display: block;
+  padding: 2em 6em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus{
+  background: #e4b363;
+  color: #464655;
+}
+#esconder{
+  height: 0;
+  overflow: hidden ;
+}
+
+
+.menu{
+  background: red ;
+  padding: 1em;
+  position: absolute;
+  top: .5em;
+  right: .5em;
+}
+
+.burger, 
+.burger::before,
+.burger::after{
+  content: '';
+  display: block;
+  background: #ebebd3;
+  height: 3px;
+  width: 1.75em;
+  border-radius: 3px;
+}
+
+.burger::before{
+  transform: translatey(-6px);
+}
+.burger::after{
+  transform: translatey(3px);
+}
+/* inicio de estilos-barra nav */
+/* INICIO DE ESTILOS-FOOTER */
+.footer{
   width: 100%;
   font-family: Raleway;
+  
  }
 
  .footer-container{
   width: 100%;
-  background: black;
+  background: #7596B2;
   color: #fff;
+  
  }
 
  .footer-principal{
@@ -292,92 +182,5 @@ section#servicios{
   .footer-principal .footer-columnas span{
     display: block;
   }
+/* FIN DE ESTILOS-FOOTER */
 
-  .txtheader{
-    top: 10%;
-  }
-  label.logo{
-  font-size: 30px;
-  padding-left: 50px;
-  }
-  .chekbtn{
-    display: block;
-  }
-  ul{
-    position: fixed;
-    width: 100%;
-    height: 100hv;
-    background: #2c3e50;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .2s;
-
-}
-  nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-}
-  nav ul li a{
-    font-size: 20px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #0082e6;
-  }
-  #check:chekbtn ~ ul{
-    left: 0;
-  }
-
-  .elegtxt{
-    width: 100%;
-    font-size: 15px;
-    padding: 2;
-    margin-left: 0;
-  }
-
-  .elegsec{
-    font-size: 20px;
-  }
-
-}
-
-@media (max-width: 858px){
-  .chekbtn{
-    display: block;
-  }
-  ul{
-    position: fixed;
-    width: 100%;
-    height: 100hv;
-    background: #2c3e50;
-    top: 80px;
-    left: -100%;
-    text-align: center;
-    transition: all .2s;
-
-}
-  nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-}
-  nav ul li a{
-    font-size: 20px;
-  }
-  a:hover,a.active{
-    background: none;
-    color: #0082e6;
-  }
-  #check:chekbtn ~ ul{
-    left: 0;
-  }
-}
-
-@media (max-width: 952px){
-  label.logo{
-    font-size: 30px;
-    padding-left: 50px;
-  }
-}

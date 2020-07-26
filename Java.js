@@ -1,3 +1,20 @@
+const app = new Vue({
+  el:'#app',
+  data:{
+    titulo:'bienvenido',
+   cambio: 'overflow:hidden'
+      
+   
+  }
+})
+
+
+
+
+
+
+
+
 $('.bxslider').bxSlider({
   auto: true,
   autoControls: true,
@@ -9,3 +26,4 @@ $('.bxslider').bxSlider({
   slideMargin: 250,
   pager: false,
 });
+
