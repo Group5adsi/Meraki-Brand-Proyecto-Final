@@ -16,12 +16,15 @@
   color: white;
 }
 
+.logo:hover{
+  cursor: pointer;
+}
+
 #ul:hover{
-  background: #BAC2D8;
- 
+  background-color: #BAC2D8;
   color:white;
-  font-family: Raleway;
-  transition-duration: 900ms;
+  transition: background-color 0.5s ease-in-out;
+  border-radius: 15px;
 }
 .logo span{
   font-weight: 300;
@@ -116,22 +119,138 @@
 #form{
   text-align: center;
   background: #e1e2e1;
+  font-family: Arial, Helvetica, sans-serif;
   height: 720px;
   padding: 170px;
   border-radius: 20px;
   }
+
+#cont{
+margin-bottom: 20px;
+  }
+
+textarea{
+  min-height: 100px;
+  max-height: 150px;
+  border: none;
+  border-radius: 10px;
+}
+
+
+#boton{
+  background-color: #404040;
+  padding: 20px;
+  margin: 5px;
+}
+
+.active{
+  background-color:#24242428;
+  border-radius: 15px;
+  cursor: default;
+}
+
+#boton:hover{
+  background-color: #0275d8;
+  transition: background-color 0.4s ease-in-out;
+}
+@media (max-width: 768px){
+
+  textarea{
+    height: 100px;
+    width: 500px;
+    min-height: 100px;
+    max-height: 150px;
+    border: none;
+  }
+  body{
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #form{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+  #boton{
+    padding: 10px;
+    margin: 0;
+  }
+
+
+  form{
+    width: 300px;
+    text-align: center;
+    
+  }
+  .active{
+    background-color:#24242428;
+    border-radius: 15px;
+    cursor: default;
+  }
+}
+
 /* fin de estilos-del section de contacto*/
   
-/* inicio de estilos-del section de contacto*/
-#form{
-  text-align: center;
-  background: #e1e2e1;
-  height: 720px;
-  padding: 170px;
-  border-radius: 20px;
+/*inicio preloader*/
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
   }
-/* fin de estilos-del section de contacto*/
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
+.loader{
+  
 
+  background-color: rgba(0, 0, 0, 1);
+  background: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
+  width:100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+  clip-path: circle(141.4% at 0 0);
+  transition: clip-path 0.5s ease-in-out;
+}
 
+.loadercargado{
+  clip-path: circle(0% at 0 0);
+}
 
+/*fin del preloader*/
