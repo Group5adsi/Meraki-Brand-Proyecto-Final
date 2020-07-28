@@ -21,15 +21,13 @@
  
   color:white;
   font-family: Raleway;
-  transition-duration: 1300ms;
+  transition-duration: 900ms;
 }
-
-
-
 .logo span{
   font-weight: 300;
 }
-
+/* fin de estilos-barra nav */
+/* inicio de estilos-footer nav */
 .footer{
   width: 100%;
   font-family: Raleway;
@@ -110,3 +108,26 @@
   .footer-principal .footer-columnas span{
     display: block;
   }
+
+}
+/* fin de estilos-barra footer */
+/* inicio de estilos-del section de contacto*/
+#form{
+  text-align: center;
+  background: #e1e2e1;
+  height: 720px;
+  padding: 170px;
+  border-radius: 20px;
+  
+
+  
+}
+
+
+/* fin de estilos-del section de contacto*/
+  
+
+
+
+
+
