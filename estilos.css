@@ -111,6 +111,7 @@
 
 }
 /* fin de estilos-barra footer */
+
 /* inicio de estilos-del section de contacto*/
 #form{
   text-align: center;
@@ -118,15 +119,18 @@
   height: 720px;
   padding: 170px;
   border-radius: 20px;
-  
-
-  
-}
-
-
+  }
 /* fin de estilos-del section de contacto*/
   
-
+/* inicio de estilos-del section de contacto*/
+#form{
+  text-align: center;
+  background: #e1e2e1;
+  height: 720px;
+  padding: 170px;
+  border-radius: 20px;
+  }
+/* fin de estilos-del section de contacto*/
 
 
 
