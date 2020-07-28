@@ -1,107 +1,35 @@
 /* inicio de estilos-barra nav */
-body{
-  font-family: 'Roboto', sans-serif;
-  background: #f0f8ea;
-}
 .container{
   width: 95%;
   max-width: 1000px;
   margin: 0 auto;
+  font-family: Raleway;
 }
-header{
-  background:#7596B2;
-  color: white;
-  padding: 1 em 0;
-  position: relative;
-}
-header::after{
-  content: '';
-  clear: both;
-  display: block;
-}
+
+
 .logo{
   float: left;
   font-size: 1 rem;
   margin: 0;
   text-transform: uppercase;
   font-weight: 700;
+  color: white;
 }
+
+#ul:hover{
+  background: #BAC2D8;
+ 
+  color:white;
+  font-family: Raleway;
+  transition-duration: 1300ms;
+}
+
+
 
 .logo span{
   font-weight: 300;
 }
-.site-nav{
-  top: 100%;
-  right: 0;
-  position: absolute;
-  background: #464655;
-  height: 0;
-  overflow: hidden ;
-}
-.site-nav-open{
-  height: auto;
-}
-.site-nav ul{
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
 
-.site-nav li{
-  border-bottom: 1px solid #575766;
-}
-
-.site-nav li{
-  border-bottom: none;
-}
-
-.site-nav a{
-  background: #7596B2;
-  color: #ebedb3;
-  display: block;
-  padding: 2em 6em;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.site-nav a:hover,
-.site-nav a:focus{
-  background: #e4b363;
-  color: #464655;
-}
-#esconder{
-  height: 0;
-  overflow: hidden ;
-}
-
-
-.menu{
-  background: red ;
-  padding: 1em;
-  position: absolute;
-  top: .5em;
-  right: .5em;
-}
-
-.burger, 
-.burger::before,
-.burger::after{
-  content: '';
-  display: block;
-  background: #ebebd3;
-  height: 3px;
-  width: 1.75em;
-  border-radius: 3px;
-}
-
-.burger::before{
-  transform: translatey(-6px);
-}
-.burger::after{
-  transform: translatey(3px);
-}
-/* inicio de estilos-barra nav */
-/* INICIO DE ESTILOS-FOOTER */
 .footer{
   width: 100%;
   font-family: Raleway;
@@ -110,7 +38,7 @@ header::after{
 
  .footer-container{
   width: 100%;
-  background: #7596B2;
+  background: #0275d8;
   color: #fff;
   
  }
@@ -182,5 +110,3 @@ header::after{
   .footer-principal .footer-columnas span{
     display: block;
   }
-/* FIN DE ESTILOS-FOOTER */
-
