@@ -10,6 +10,10 @@ const app = new Vue({
 
 
 
+$(document).ready(function(){
+  alert("este es jquery");
+})
+
 
 
 
