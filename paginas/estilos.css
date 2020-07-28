@@ -49,7 +49,7 @@ a.active,a:hover{
 
 .chekbtn{
   font-size: 30px;
-  color: white;
+  color: rgba(247, 12, 12, 0.534);
   float:right;
   line-height: 80px;
   margin-right: 40px;
@@ -141,7 +141,7 @@ header .texto-header{
   font-size: 20px;
   letter-spacing: 1.4px;
   word-spacing: 0.6px;
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-weight: 400;
   font-style: oblique;
   font-variant: normal;
@@ -179,7 +179,7 @@ header .texto-header{
 }
 .contenido-texto h3 span{
   background-color: #e25d11;
-  color: aliceblue;
+  color: rgb(255, 240, 240);
   border-radius: 50%;
   display: inline-block;
   text-align: center;
@@ -192,39 +192,3 @@ header .texto-header{
   padding: 0px 0px 30px  15px;
   text-align: justify;
 }
- footer{
-   background: #414141;
-   padding:60px 0 30px 0 ;
-   margin: auto;
-   overflow: hidden;
-   
- }
- .contenedor-footer{
-   display: flex;
-   width: flex;
-   justify-content: space-evenly;
-   margin: auto;
-   padding-bottom: 50px;
-   border-bottom:  1px solid #ccc;
- }
- .content-foo{
-   text-align: center;
- }
-
-.content-foo h4{
-  color: #fff;
-  border-bottom: 3px solid #e25d11;
-  padding-bottom: 5px ;
-  margin-bottom: 10px;
-
-}
-.content-foo p{
-  color: #ccc;
-}
-.titul-final{
-  text-align: center;
-  font-size: 24px;
-  margin: 20px 0 0 0 ;
-  color: #9e9797 ;
-}
- 
