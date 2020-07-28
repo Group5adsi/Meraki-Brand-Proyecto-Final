@@ -26,6 +26,11 @@
   transition: background-color 0.5s ease-in-out;
   border-radius: 15px;
 }
+
+#ul{
+  margin: 10px;
+  padding: 3px;;
+}
 .logo span{
   font-weight: 300;
 }
@@ -254,3 +259,49 @@ textarea{
 }
 
 /*fin del preloader*/
+
+/*Inicio estilos encabezado*/
+
+div#mkbtxt{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  min-height:100px;
+  background-color: #0202024f;
+}
+
+div.subtxt{
+  width: 600px;
+  min-height: 50px;
+  background-color: #2f2d3579;
+}
+
+div.titulo{
+  width: 600px;
+  height: 40px;
+}
+
+p.titulo{
+  margin: 25px;
+  padding: 20px;
+  
+}
+
+div.info{
+  
+  width: 600px;
+  height: 0px;
+  background-color: #404040;
+  overflow: hidden;
+}
+
+p.info{
+  margin: 20px;
+  text-align: center;
+  color: #e1e2e1;
+}
+
+div.subtxt:hover div.info{
+  height: 180px;
+}
