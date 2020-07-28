@@ -14,32 +14,35 @@
       <div id="app">
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
           <div class="container">
-            <h1 class="logo"><span>Meraki-Brand</span></h1>
+            <a href="index.html"><img src="img/merakibrandlogo.png" alt="logo" height="100px" width="100px" class="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <div id="ul"><font size="5"><a class="nav-item nav-link active" href="index.html">Inicio</a></font></i></div>
-              <div id="ul"><font size="5"><a class="nav-item nav-link active" href="Nosotros.html">Nosotros </a></font></div>
-              <div id="ul"><font size="5"><a class="nav-item nav-link active" href="Servicios.html">Servicios </a></font></div>
-              <div id="ul"><font size="5"><a class="nav-item nav-link active" href="Contacto.html">Contacto </a></font></div>
-              <div id="ul"><font size="5"><a class="nav-item nav-link active" href="#">Login </a></font></div>
+              <div id="ul"><font size="5"><a class="nav-item nav-link" href="index.html">Inicio</a></font></i></div>
+              <div id="ul"><font size="5"><a class="nav-item nav-link" href="Nosotros.html">Nosotros </a></font></div>
+              <div id="ul"><font size="5"><a class="nav-item nav-link" href="Servicios.html">Servicios </a></font></div>
+              <div id="ul"><font size="5"><a class="nav-item nav-link" href="Contacto.html">Contacto </a></font></div>
+              <div id="ul"><font size="5"><a class="nav-item nav-link active" id="activo">Login </a></font></div>
             </div>
           </div>
         </nav>
      </div>      
   </header>
   <!-- Aqui termina el header y nav del sistema -->
+  <body>
+    <div class="lds-ring loader" id="loader"><div></div><div></div><div></div><div></div></div>
+
   <section>
     <div class="container">
       <div class="row mt-5">
         <div class="col-lg-12 col-md-8 col-sm-6" id="form">
           <label><h1 id="cont">Inicio de sesion</h1></label>
           <form action="">
-            <input type="email" placeholder="Correo:luis@ejemplo.com" required  class="form-control md-5"><br><br>
-            <input type="password" placeholder="Contraseña:*****" required  class="form-control md-5"><br><br>
+            <input type="email" placeholder="Correo electronico" required  class="form-control md-5"><br><br>
+            <input type="password" placeholder="Contraseña" required  class="form-control md-5"><br><br>
            <input type="submit"class="btn btn-primary" value="Registrar"><br><br>
           </form>
         </div>
