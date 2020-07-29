@@ -259,8 +259,8 @@ textarea {
 /*Inicio estilos encabezado*/
 
 div#mkbtxt {
-   padding-top: 150px;
-   padding-bottom: 150px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -275,13 +275,13 @@ div.subtxt {
     margin-bottom: 20px;
     border-radius: 20px;
     box-shadow: 11px -9px 37px -6px rgba(0,0,0,0.57);
-    
+
 }
 
-h1.titulo{
-  padding-top: 10px;
-  align-content: center;
-  justify-content: center;
+h1.titulo {
+    padding-top: 10px;
+    align-content: center;
+    justify-content: center;
 }
 
 div.titulo {
@@ -316,3 +316,4 @@ p.info {
 div.subtxt:hover div.info {
     height: 180px;
 }
+
