@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f3f3f3;
+    font-family: 'Open-Sans', sans-serif;
+}
+
 /* inicio de estilos-barra nav */
 .container {
     width: 95%;
@@ -304,7 +315,7 @@ div.info {
     overflow: hidden;
     margin-bottom: 20px;
     margin-top: 20px;
-    -webkit-transition: height 0.4s;
+    transition: height 0.4s;
 }
 
 p.info {
@@ -317,3 +328,95 @@ div.subtxt:hover div.info {
     height: 180px;
 }
 
+/*Fin estilos encabezado*/
+
+/*Grid servicios*/
+
+
+.catalogo {
+    padding: 40px 0;
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.catalogo img {
+    border-radius: 20px;
+}
+
+header .tituloser {
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+header .tituloser p {
+    color: #9b9b9b;
+}
+
+header form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+header .barra-busqueda {
+    width: 50%;
+    height: 40px;
+    line-height: 40px;
+    background: #9b9b9b;
+    padding: 0 20px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+header .categorias {
+    display: flex;
+    justify-content: center;
+    flex: wrap;
+
+}
+
+header .categorias a {
+    color: #686868;
+    margin: 10px 20px;
+    font-style: 18px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+header .categorias a.activo {
+    color: #000;
+}
+
+.grid {
+    position: relative;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s linear 1s;
+
+}
+
+.grid.imagenes-cargadas{
+    opacity: 1;
+}
+
+.grid .item {
+    position: absolute;
+    display: block;
+    padding: 0px;
+    margin: 10px;
+    width: calc(33.33333% - 40px);
+}
+
+.grid .item-contenido{
+    position: relative;
+}
+
+.grid .item img {
+    width: 100%;
+    cursor: pointer;
+}
