@@ -134,9 +134,9 @@ body {
 
 .contenido-nosotros{
     height: 410px;
-    width: auto;
+    width: 1290px;
     background: rgba(137, 141, 140, 0.486);
-    margin: auto;
+    margin: 20px;
     margin-top: 20px;
     border-radius: 1em;  
     padding: 0px 10px 10px 10px;  
@@ -146,7 +146,7 @@ body {
     height:330px;
     width: auto;
     background: rgb(130, 131, 128);
-    margin:1em;
+    margin:15px;
     border-radius: 1em;      
 }
 
@@ -168,7 +168,8 @@ body {
     color: white;
     width: 590px;
     text-align: justify;
-    margin: 0px;   
+    margin: auto;  
+    margin-right: 10px; 
 }
 
 .articulo,articulo2{
