@@ -144,7 +144,7 @@ body {
 
 .articulo{
     height:330px;
-    width: 600px;
+    width: auto;
     background: rgb(130, 131, 128);
     margin:1em;
     border-radius: 1em;      
