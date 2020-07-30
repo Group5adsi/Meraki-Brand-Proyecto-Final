@@ -130,6 +130,53 @@ body {
 }
 /* fin de estilos-barra footer */
 
+/* inicio de estilos-del section de nosotros*/
+
+.contenido-nosotros{
+    height: 410px;
+    width: 1290px;
+    background: rgba(137, 141, 140, 0.486);
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 1em;  
+    padding: 0px 10px 10px 10px;  
+}
+
+.articulo{
+    height:330px;
+    width: 600px;
+    background: rgb(130, 131, 128);
+    margin:1em;
+    border-radius: 1em;      
+}
+
+.articulo h1{
+    color: rgba(5, 5, 5, 0.514);
+    text-align: center;
+    font-size: 40px;
+}
+
+.articulo img{
+    border-radius: 1em;
+    float: left;
+    width: 280px;
+    height: 250px;
+    margin: 15px;  
+}
+
+.articulo p{
+    color: white;
+    width: 590px;
+    text-align: justify;
+    margin: 0px;   
+}
+
+.articulo,articulo2{
+    float: left;   
+}
+
+/* fin de estilos-del section de nosotros*/
+
 /* inicio de estilos-del section de contacto*/
 #form {
     text-align: center;
