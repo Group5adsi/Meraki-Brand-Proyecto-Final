@@ -134,12 +134,14 @@ body {
 
 .contenido-nosotros{
     height: 410px;
-    width: 1290px;
+    width: 1280px;
     background: rgba(137, 141, 140, 0.486);
-    margin: 20px;
+    margin: auto;
     margin-top: 20px;
     border-radius: 1em;  
     padding: 0px 10px 10px 10px;  
+    box-sizing: border-box;
+    
 }
 
 .articulo{
@@ -147,7 +149,9 @@ body {
     width: auto;
     background: rgb(130, 131, 128);
     margin:15px;
-    border-radius: 1em;      
+    border-radius: 1em;  
+    box-sizing: border-box; 
+  
 }
 
 .articulo h1{
@@ -174,6 +178,7 @@ body {
 
 .articulo,articulo2{
     float: left;   
+    width: auto;
 }
 
 /* fin de estilos-del section de nosotros*/
