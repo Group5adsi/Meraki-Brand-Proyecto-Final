@@ -134,7 +134,7 @@ body {
 
 .contenido-nosotros{
     height: 410px;
-    width: 1290px;
+    width: auto;
     background: rgba(137, 141, 140, 0.486);
     margin: auto;
     margin-top: 20px;
