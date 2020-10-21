@@ -40,6 +40,73 @@ body{
 
  nav{
      text-align: right;
-     padding: ;
+     padding: 30px 50px 0 0 ;
  }
-  
+
+ nav > a{
+     color:#fff;
+     font-weight: 300;
+     text-decoration: none;
+     margin-right: 10px;
+ }
+
+ nav > a:hover{
+     text-decoration: underline;
+ }
+ header .textos-header{
+     display: flex;
+     height: 430px;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+ }
+ .textos-header h1{
+     font-size: 50px;
+     color: #fff;
+ }
+ .textos-header h2{
+     font-size: 30px;
+     font-weight: 300;
+     color: #fff;
+ }
+ .wave{
+     position: absolute;
+     bottom: 0;
+     width: 100%;
+ }
+/*CONTENEDOR SOBRE NOSOTROS */
+
+.contenedor-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img-ilus{
+    width: 48%;
+}
+.contenedor-nosotros .contenido-tex{
+    width: 48%;
+}
+.contenido-tex h3{
+    margin-bottom: 15px;
+}
+.contenido-tex h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0, .5 );
+    margin-right: 5px;
+}
+.contenido-tex p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+
+}
