@@ -138,10 +138,10 @@ body {
     background: rgba(137, 141, 140, 0.486);
     margin: auto;
     margin-top: 20px;
-    border-radius: 1em;  
-    padding: 0px 10px 10px 10px;  
+    border-radius: 1em;
+    padding: 0px 10px 10px 10px;
     box-sizing: border-box;
-    
+
 }
 
 .articulo{
@@ -149,9 +149,9 @@ body {
     width: auto;
     background: rgb(130, 131, 128);
     margin:15px;
-    border-radius: 1em;  
-    box-sizing: border-box; 
-  
+    border-radius: 1em;
+    box-sizing: border-box;
+
 }
 
 .articulo h1{
@@ -165,19 +165,19 @@ body {
     float: left;
     width: 280px;
     height: 250px;
-    margin: 15px;  
+    margin: 15px;
 }
 
 .articulo p{
     color: white;
     width: 590px;
     text-align: justify;
-    margin: auto;  
-    margin-right: 10px; 
+    margin: auto;
+    margin-right: 10px;
 }
 
 .articulo,articulo2{
-    float: left;   
+    float: left;
     width: auto;
 }
 
@@ -527,4 +527,8 @@ header .categorias a.activo {
     position: absolute;
     right: -20px;
     top: -20px;
+}
+
+#error{
+  color: #912900;
 }
