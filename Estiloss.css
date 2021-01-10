@@ -159,3 +159,88 @@ body{
 .img-serv:hover .hover-punto{
     transform: scale(1);
 }
+
+/* EL FOOTER*/
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;    
+}
+
+.container-footer{
+    display: flex ;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.conten-foo{
+    text-align: center;
+}
+.conten-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+
+}
+.conten-foo p{
+    color: #ccc;
+  
+}
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #979797;
+
+}
+
+/*ACA EMPIEZA EL RESPONSIVE */
+@media screen and (max-width: 900px){
+    header{
+        background-position: center;
+    }
+    .contenedor-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor-nosotros .contenido-tex{
+        width: 90%;
+    }
+    .img-ilus{
+        width: 90%;
+    }
+    /* GALERIA*/
+    .img-serv{
+        width: 44%;
+    }
+    .hover-punto img{
+        width: 350px;
+    }
+
+}
+@media screen and (max-width: 500px){
+    body{
+        width: 100%;
+    }
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+    nav > a{
+        margin-right: 5px;
+    }
+    .textos-header h1{
+        font-size: 35px;
+        width: 100%;
+    }
+    .textos-header h2{
+        font-size: 20px;
+    }
+
+}
